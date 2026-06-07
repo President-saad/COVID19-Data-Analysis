@@ -1,46 +1,80 @@
-# COVID-19 Data Analysis
+# COVID-19 Global Data Analysis Dashboard
 
 ## Overview
-Analysis of global COVID-19 data using Python, Pandas 
-and Matplotlib to uncover trends in cases, deaths 
-and recoveries worldwide.
+A comprehensive analysis of global COVID-19 data using 
+Python, Pandas, Matplotlib and Power BI to uncover 
+case trends, death rates, recovery patterns and 
+continental impact across 209 countries and territories.
 
 ## Tools Used
 - Python
 - Pandas
 - Matplotlib
+- Power BI
 - JupyterLab
 
 ## Questions Answered
-- Which country had the most cases?
+- Which countries had the most COVID-19 cases?
+- Which countries had the highest death rates?
+- Which countries had the best recovery rates?
 - Which continent was most affected?
-- What was the total worldwide death toll?
-- How did cases grow over time?
-- Which country had the highest death rate?
+- How fast did cases grow month by month?
+- Which countries had the most active cases?
+- What was the global death and recovery rate?
 
 ## Key Findings
 
-- The USA had the most COVID-19 cases worldwide with 
-  5,032,179 total cases, followed by Brazil (2,917,562) 
-  and India (2,025,409).
+### Global Summary
+- Total worldwide cases reached 19,169,166 across 
+  209 countries and territories.
+- Global death rate was 3.72% meaning 713,007 
+  people lost their lives.
+- Global recovery rate was 62.97% with 12,070,191 
+  people recovering.
 
-- The USA also led in total deaths with 162,804 deaths, 
-  followed by Brazil (98,644) and Mexico (50,517).
+### Top Affected Countries
+- The USA had the most cases with 5,032,179 followed 
+  by Brazil with 2,917,562 and India with 2,025,409.
+- The USA also led in total deaths with 162,804 
+  followed by Brazil with 98,644 and Mexico with 50,517.
 
-- North America was the most affected continent with 
-  5,919,209 total cases, followed by Asia (4,689,794) 
-  and South America (4,543,273).
-
-- Worldwide there were 19,169,166 total cases, 
-  713,007 deaths and 12,070,191 recoveries.
-
-- Cases grew rapidly from 555 confirmed cases on 
-  January 22 2020 to over 16,480,485 by July 27 2020 
-  showing exponential growth over 6 months.
-
+### Death Rate Analysis
 - Yemen had the highest death rate at 28.73% despite 
-  having fewer total cases, suggesting severe healthcare 
-  limitations during the pandemic.
+  having only 1,768 total cases suggesting severe 
+  healthcare limitations.
+- France had the second highest death rate at 15.49% 
+  followed by UK at 15.06%.
+- Europe had the highest continental death rate 
+  at 6.88% significantly higher than other continents.
+
+### Recovery Rate Analysis
+- New Zealand had the best recovery rate at 97.13% 
+  showing exceptional pandemic management.
+- Qatar came second at 97.09% followed by Malaysia 
+  at 96.40%.
+- Australia/Oceania had the lowest continental 
+  death rate at just 1.29%.
+
+### Active Cases
+- The USA had the most active cases with 2,292,707 
+  unresolved cases followed by Brazil with 771,258.
+- Colombia ranked 5th in active cases despite not 
+  being in the top 5 for total cases.
+
+### Continental Breakdown
+- North America had the most cases with 5,919,209 
+  followed by Asia with 4,689,794.
+- Europe had the highest death rate at 6.88% 
+  despite having fewer total cases than North America.
+- Africa had surprisingly low cases at 1,011,867 
+  possibly due to limited testing capacity.
+
+### Monthly Growth Rate
+- February 2020 saw the fastest growth rate at 
+  4,216% as the virus spread globally from China.
+- Growth rate slowed from 604% in April to 47% 
+  in July showing early containment efforts.
 
 ## Dataset Source
 Kaggle - Corona Virus Report
+kaggle.com/datasets/imdevskp/corona-virus-report
